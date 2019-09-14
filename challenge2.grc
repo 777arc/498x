@@ -140,7 +140,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(80, 332)</value>
+      <value>(80, 364)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -180,6 +180,8 @@ multiply by 3
 subtract by 25
 divide by 2
 take the absolute value
+
+(do these operations individually, dont combine into 1)
 
 Then pipe the result to the Number Sink I provided,
 and make sure the output number looks right
@@ -238,7 +240,7 @@ you can go either route.</value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(672, 324)</value>
+      <value>(672, 348)</value>
     </param>
     <param>
       <key>gui_hint</key>

@@ -144,7 +144,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(48, 276)</value>
+      <value>(48, 300)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -207,7 +207,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(440, 484)</value>
+      <value>(440, 508)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -266,7 +266,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(192, 420)</value>
+      <value>(192, 444)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -309,7 +309,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(528, 320)</value>
+      <value>(528, 344)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -360,7 +360,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(208, 308)</value>
+      <value>(208, 332)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -415,7 +415,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(600, 516)</value>
+      <value>(600, 540)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -473,7 +473,9 @@ Hint- leave the Source blocks as type Float, and
 then work from there.  Also, leave the throttle 
 connected to each source block, you always want
 to throttle non-hardware source blocks so that
-they don't just produce samples as fast as possible</value>
+they don't just produce samples as fast as possible
+
+2nd Hint- Don't change any of the "Sample Rate" parameters</value>
     </param>
     <param>
       <key>_enabled</key>
@@ -544,7 +546,7 @@ they don't just produce samples as fast as possible</value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(184, 588)</value>
+      <value>(184, 612)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -831,7 +833,7 @@ they don't just produce samples as fast as possible</value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(192, 492)</value>
+      <value>(192, 516)</value>
     </param>
     <param>
       <key>gui_hint</key>
