@@ -129,6 +129,69 @@
     </param>
   </block>
   <block>
+    <key>variable_qtgui_range</key>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>50</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(104, 476)</value>
+    </param>
+    <param>
+      <key>gui_hint</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>gain</value>
+    </param>
+    <param>
+      <key>label</key>
+      <value>Gain</value>
+    </param>
+    <param>
+      <key>min_len</key>
+      <value>200</value>
+    </param>
+    <param>
+      <key>orient</key>
+      <value>Qt.Horizontal</value>
+    </param>
+    <param>
+      <key>start</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>step</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>stop</key>
+      <value>74</value>
+    </param>
+    <param>
+      <key>rangeType</key>
+      <value>float</value>
+    </param>
+    <param>
+      <key>widget</key>
+      <value>counter_slider</value>
+    </param>
+  </block>
+  <block>
     <key>variable_qtgui_chooser</key>
     <param>
       <key>comment</key>
@@ -144,7 +207,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(576, 20)</value>
+      <value>(600, 60)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -275,7 +338,7 @@
     </param>
     <param>
       <key>gain</key>
-      <value>"slow_attack"</value>
+      <value>"manual"</value>
     </param>
     <param>
       <key>id</key>
@@ -287,7 +350,7 @@
     </param>
     <param>
       <key>manual_gain</key>
-      <value>64.0</value>
+      <value>gain</value>
     </param>
     <param>
       <key>maxoutbuf</key>
