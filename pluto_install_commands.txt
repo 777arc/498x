@@ -1,0 +1,39 @@
+sudo apt-get install git libxml2 libxml2-dev bison flex libcdk5-dev cmake python3-pip
+
+cd ~
+git clone https://github.com/analogdevicesinc/libiio.git
+cd libiio
+cmake ./
+make all -j3
+sudo make install
+cd bindings/python/
+sudo python3 setup.py install
+
+cd ~
+git clone https://github.com/analogdevicesinc/libad9361-iio.git
+cd libad9361-iio
+cmake ./
+make -j3
+sudo make install
+
+cd ~
+git clone https://github.com/analogdevicesinc/pyadi-iio.git
+cd pyadi-iio
+sudo python3 setup.py install
+
+cd ~
+sudo apt-get install libglib2.0-dev libgtk2.0-dev libgtkdatabox-dev libmatio-dev libfftw3-dev libxml2 libxml2-dev bison flex libavahi-common-dev libavahi-client-dev libcurl4-openssl-dev libjansson-dev cmake libaio-dev
+git clone https://github.com/analogdevicesinc/iio-oscilloscope.git
+cd iio-oscilloscope
+git checkout origin/master
+cmake .
+make -j3
+sudo make install
+sudo ldconfig
+
+== Test above install ==
+python3
+import adi
+sdr = adi.Pluto('ip:192.168.2.1')
+sdr.sample_rate = int(2.5e6)
+sdr.rx()
